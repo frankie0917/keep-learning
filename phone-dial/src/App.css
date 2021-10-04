@@ -1,0 +1,40 @@
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#root{
+  position: relative;
+}
+
+#root svg{
+  position: absolute;
+}
+
+#root div{
+  z-index: 10;
+  width: 500px;
+  height: 500px;
+}
+
+h1{
+  font-size: 4rem;
+  position: fixed;
+  top: 10px;
+}
+
+.number{
+  position: absolute;
+  font-family: sans-serif;
+  font-size: 40px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none;
+}
